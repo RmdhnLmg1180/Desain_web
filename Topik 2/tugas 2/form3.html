@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Curriculum Vitae</h1>
+      <form>
+        <p for="nama">Nama Lengkap:</p>
+        <input type="text" id="nama" name="nama" required /><br /><br />
+
+        <p for="tempatLahir">Tempat Lahir:</p>
+        <input type="text" id="tempatLahir" name="tempatLahir" required /><br /><br />
+
+        <p for="tanggalLahir">Tanggal Lahir:</p>
+        <input type="date" id="tanggalLahir" name="tanggalLahir" required />
+
+        ><br /><br />
+
+        <p>Jenis Kelamin:</p>
+        <input type="radio" id="pria" name="jenisKelamin" value="Pria" required />
+        <p for="pria">Pria</p>
+        <input type="radio" id="wanita" name="jenisKelamin" value="Wanita" required />
+        <p for="wanita">Wanita</p>
+        <br /><br />
+
+        <p for="status">Status Perkawinan:</p>
+        <select id="status" name="status" required>
+          <option value="">Pilih Status</option>
+          <option value="Belum Menikah">Belum Menikah</option>
+          <option value="Menikah">Menikah</option></select
+        ><br /><br />
+
+        <p>Hobby:</p>
+        <br />
+        <input type="checkbox" id="membaca" name="hobby" value="Membaca" />
+        <p for="membaca">Membaca</p>
+        <br />
+        <input type="checkbox" id="bersepeda" name="hobby" value="Bersepeda" />
+        <p for="bersepeda">Bersepeda</p>
+        <br />
+        <input type="checkbox" id="memasak" name="hobby" value="Memasak" />
+        <p for="memasak">Memasak</p>
+        <br /><br />
+
+        <p for="alamat">Alamat:</p>
+        <input type="text" id="alamat" name="alamat" required /><br /><br />
+
+        <p for="noHP">No. HP:</p>
+        <input type="text" id="noHP" name="noHP" required /><br /><br />
+
+        <p for="email">Email:</p>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <h3>Riwayat Pendidikan</h3>
+        <table border="1">
+          <tr>
+            <th>Tingkat</th>
+            <th>Nama Sekolah/Universitas</th>
+            <th>Tahun Masuk</th>
+            <th>Tahun Lulus</th>
+          </tr>
+          <tr>
+            <td><input type="text" name="tingkatPendidikan1" /></td>
+            <td><input type="text" name="namaSekolah1" /></td>
+            <td><input type="text" name="tahunMasuk1" /></td>
+            <td><input type="text" name="tahunLulus1" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="tingkatPendidikan1" /></td>
+            <td><input type="text" name="namaSekolah1" /></td>
+            <td><input type="text" name="tahunMasuk1" /></td>
+            <td><input type="text" name="tahunLulus1" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="tingkatPendidikan1" /></td>
+            <td><input type="text" name="namaSekolah1" /></td>
+            <td><input type="text" name="tahunMasuk1" /></td>
+            <td><input type="text" name="tahunLulus1" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="tingkatPendidikan1" /></td>
+            <td><input type="text" name="namaSekolah1" /></td>
+            <td><input type="text" name="tahunMasuk1" /></td>
+            <td><input type="text" name="tahunLulus1" /></td>
+          </tr>
+        </table>
+        <br /><br />
+
+        <h3>Pengalaman Kerja</h3>
+        <table border="1">
+          <tr>
+            <th>Perusahaan</th>
+            <th>Posisi</th>
+            <th>Tahun Mulai</th>
+            <th>Tahun Berakhir</th>
+          </tr>
+          <tr>
+            <td><input type="text" name="perusahaan1" /></td>
+            <td><input type="text" name="posisi1" /></td>
+            <td><input type="text" name="tahunMulai1" /></td>
+            <td><input type="text" name="tahunBerakhir1" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="perusahaan1" /></td>
+            <td><input type="text" name="posisi1" /></td>
+            <td><input type="text" name="tahunMulai1" /></td>
+            <td><input type="text" name="tahunBerakhir1" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="perusahaan1" /></td>
+            <td><input type="text" name="posisi1" /></td>
+            <td><input type="text" name="tahunMulai1" /></td>
+            <td><input type="text" name="tahunBerakhir1" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="perusahaan1" /></td>
+            <td><input type="text" name="posisi1" /></td>
+            <td><input type="text" name="tahunMulai1" /></td>
+            <td><input type="text" name="tahunBerakhir1" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="perusahaan1" /></td>
+            <td><input type="text" name="posisi1" /></td>
+            <td><input type="text" name="tahunMulai1" /></td>
+            <td><input type="text" name="tahunBerakhir1" /></td>
+          </tr>
+        </table>
+        <br /><br />
+
+        <input type="submit" value="Kirim" />
+      </form>
+    </div>
+  </body>
+</html>

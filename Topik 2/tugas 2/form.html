@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isi Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Isilah form di bawah ini:</h3>
+      <form action="form_html.asp" method="get">
+        <fieldset>
+          <legend>Biodata</legend>
+          <div class="mb-3">
+            <label for="firstname" class="form-label">Nama Depan</label>
+            <input type="text" class="form-control" id="firstname" name="firstname" />
+          </div>
+          <div class="mb-3">
+            <label for="lastname" class="form-label">Nama Belakang</label>
+            <input type="text" class="form-control" id="lastname" name="lastname" />
+          </div>
+          <div class="mb-3">
+            <label for="address" class="form-label">Alamat</label>
+            <input type="text" class="form-control" id="address" name="address" />
+          </div>
+          <div class="mb-3">
+            <label for="hobby" class="form-label">Hobby</label>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="hobby1" name="hobby" value="Renang" />
+              <label class="form-check-label" for="hobby1">Renang</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="hobby2" name="hobby" value="Baca Buku" />
+              <label class="form-check-label" for="hobby2">Baca Buku</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="sex" class="form-label">Jenis Kelamin</label>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="sex1" name="sex" value="Laki-laki" checked />
+              <label class="form-check-label" for="sex1">Laki-laki</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="sex2" name="sex" value="Perempuan" />
+              <label class="form-check-label" for="sex2">Perempuan</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="age" class="form-label">Usia</label>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="age1" name="age" value="Dewasa" checked />
+              <label class="form-check-label" for="age1">Dewasa</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="age2" name="age" value="Anak-anak" />
+              <label class="form-check-label" for="age2">Anak-anak</label>
+            </div>
+          </div>
+        </fieldset>
+        <div class="mb-3">
+          <label for="cars" class="form-label">Merk Mobil yang anda suka</label>
+          <select class="form-select" id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="Suzuki">Suzuki</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes">Mercedes</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="description" class="form-label">Deskripsikan diri anda di tempat ini</label>
+          <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
