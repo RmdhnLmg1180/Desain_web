@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Mahasiswa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Data Mahasiswa</h1>
+      <form id="mahasiswaForm">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required /><br />
+
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" required /><br />
+
+        <label for="jenisKelamin">Jenis Kelamin:</label>
+        <select id="jenisKelamin" name="jenisKelamin">
+          <option value="Laki-laki">Laki-laki</option>
+          <option value="Perempuan">Perempuan</option></select
+        ><br />
+
+        <label for="agama">Agama:</label>
+        <select id="agama" name="agama">
+          <option value="Islam">Islam</option>
+          <option value="Kristen">Kristen</option>
+          <option value="Katolik">Katolik</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Budha">Budha</option>
+          <option value="Konghucu">Konghucu</option></select
+        ><br />
+
+        <label for="status">Status:</label>
+        <select id="status" name="status">
+          <option value="Aktif">Aktif</option>
+          <option value="Tidak Aktif">Tidak AKtif</option></select
+        ><br />
+        <!-- <input type="text" id="status" name="status" required /> -->
+        <br />
+
+        <label for="jurusan">Jurusan/Prodi:</label>
+        <input type="text" id="jurusan" name="jurusan" required /><br />
+
+        <label for="komentar">Komentar:</label>
+        <textarea id="komentar" name="komentar"></textarea><br />
+
+        <button type="button" id="kirimBtn">Kirim</button>
+      </form>
+      <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
